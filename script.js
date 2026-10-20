@@ -15,3 +15,7 @@ function getComputerChoice () {
 
   return result = "scissors";
 }
+
+function getHumanChoice () {
+  return (prompt("Choose rock, paper, or scissors: ", "rock").toLowerCase());
+}
